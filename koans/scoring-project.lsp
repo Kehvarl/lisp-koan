@@ -49,9 +49,9 @@
 ;
 ; Your goal is to write the score method.
 
-(defun score (dice)
-  ; You need to write this method
-)
+(defun score (dice))
+
+
 
 (define-test test-score-of-an-empty-list-is-zero
     (assert-equal 0 (score nil)))
